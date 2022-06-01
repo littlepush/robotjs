@@ -22,6 +22,7 @@
  */
 H_INLINE void microsleep(double milliseconds)
 {
+	return;
 #if defined(IS_WINDOWS)
 	Sleep((DWORD)milliseconds); /* (Unfortunately truncated to a 32-bit integer.) */
 #else
