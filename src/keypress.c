@@ -90,6 +90,7 @@ void win32KeyEvent(int key, MMKeyFlags flags)
 		case VK_BROWSER_FAVORITES:
 		case VK_BROWSER_HOME:
 		case VK_LAUNCH_MAIL:
+		case VK_DIVIDE:
 		{
 			flags |= KEYEVENTF_EXTENDEDKEY;
 			break;
